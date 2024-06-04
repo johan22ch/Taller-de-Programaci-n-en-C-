@@ -1,27 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    int num, guess = 0, cubed;
+    int numero; // Variable para almacenar el número ingresado por el usuario
+    int resultado = 0; // Variable para almacenar el resultado de la raíz cúbica
+    int acumulado = 0; // Variable para almacenar el acumulado de las sumas sucesivas
 
-    // Ingrese un número entero
-    printf("Ingrese un número: ");
-    scanf("%d", &num);
+    // Solicita al usuario que ingrese un número
+    printf("Ingrese un numero: ");
+    scanf("%d", &numero); // Lee el número ingresado por el usuario y lo almacena en la variable 'numero'
 
-    // Se procede a calcular la raíz cúbica utilizando restas sucesivas con un bucle while
-    while (1) {
-        cubed = guess * guess * guess;
-        if (cubed == num) {
-            break;
-        } else if (cubed > num) {
-            guess--;
-            break;
+    int i = 1; // Variable de control del bucle
+
+    // Bucle 'while' para calcular la raíz cúbica mediante restas sucesivas
+    while (acumulado < numero) {
+        acumulado += (3 * resultado * resultado) + (3 * resultado) + 1; // Actualiza el acumulado con la fórmula
+        if (acumulado <= numero) { // Verifica si el acumulado no supera el número
+            resultado++; // Incrementa el resultado si la condición se cumple
         }
-        guess++;
+        i++; // Incrementa la variable de control
     }
 
-    // Imprimir el resultado
-    printf("La raíz cúbica aproximada de %d es %d\n", num, guess);
-    printf("Muchas gracias mundo :D\n");
-
-    return 0;
+    // Imprime el resultado
+    printf("La raiz cubica de %d es %d\n", numero, resultado);
+    return 0; // Termina el programa
 }
