@@ -21,7 +21,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioUnoDoWhile.c
 
-1. Inverso de un número
+2. Inverso de un número
 
 	• Descripción: Dado un número, obtener su inverso.
 
@@ -33,7 +33,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDosDoWhile.c
 
-2. Potencia mediante sumas sucesivas
+3. Potencia mediante sumas sucesivas
 
 	• Descripción: Calcular la potencia de un número utilizando sumas sucesivas.
 
@@ -45,7 +45,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioTresDoWhile.c
 
-3. Radicación mediante restas sucesivas
+4. Radicación mediante restas sucesivas
 
 	• Descripción: Calcular la raíz cúbica de un número utilizando restas sucesivas.
 
@@ -57,7 +57,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioCuatroDoWhile.c
 
-4. Serie de Fibonacci
+5. Serie de Fibonacci
 
 	• Descripción: Presentar los n elementos de la serie de Fibonacci.
 
@@ -69,7 +69,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioCincoDoWhile.c
 
-5. Factorial de un número
+6. Factorial de un número
 
 	• Descripción: Calcular el factorial de un número.
 
@@ -81,7 +81,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioSeisDoWhile.c
 
-6. Suma de una serie aritmética
+7. Suma de una serie aritmética
 
 	• Descripción: Calcular la suma de los primeros n términos de una serie aritmética.
 
@@ -93,7 +93,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioSieteDoWhile.c
 
-7. Producto de una serie geométrica
+8. Producto de una serie geométrica
 
 	• Descripción: Calcular el producto de los primeros n términos de una serie geométrica.
 
@@ -105,7 +105,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioOchoDoWhile.c
 
-8. Número de dígitos de un número
+9. Número de dígitos de un número
 
 	• Descripción: Contar el número de dígitos de un número.
 
@@ -117,7 +117,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioNueveDoWhile.c
 
-9. Verificar si un número es primo
+10. Verificar si un número es primo
 
 	• Descripción: Determinar si un número es primo.
 
@@ -129,7 +129,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDiezDoWhile.c
 
-10. Encontrar el MCD (Máximo Común Divisor)
+11. Encontrar el MCD (Máximo Común Divisor)
 
 	• Descripción: Calcular el MCD de dos números.
 
@@ -141,7 +141,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioOnceDoWhile.c
 
-11. Sumar los números impares hasta n
+12. Sumar los números impares hasta n
 
 	• Descripción: Calcular la suma de todos los números impares desde 1 hasta n.
 
@@ -153,7 +153,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDoceDoWhile.c
 
-12. Sumar los números pares hasta n
+13. Sumar los números pares hasta n
 
 	• Descripción: Calcular la suma de todos los números pares desde 1 hasta n.
 
@@ -165,7 +165,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioTreceDoWhile.c
 
-13. Suma de los cuadrados de los primeros n números
+14. Suma de los cuadrados de los primeros n números
 
 	• Descripción: Calcular la suma de los cuadrados de los primeros n números naturales.
 
@@ -177,7 +177,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioCatorceDoWhile.c
 
-14. Suma de los cubos de los primeros n números
+15. Suma de los cubos de los primeros n números
 
 	• Descripción: Calcular la suma de los cubos de los primeros n números naturales.
 
@@ -189,7 +189,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioQuinceDoWhile.c
 
-15. Suma de una serie de números fraccionarios
+16. Suma de una serie de números fraccionarios
 
 	• Descripción: Calcular la suma de la serie 1 + 1/2 + 1/3 + … + 1/n.
 
@@ -201,7 +201,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDiezsiseisDoWhile.c
 
-16. Producto de una serie de números fraccionarios
+17. Producto de una serie de números fraccionarios
 
 	• Descripción: Calcular el producto de la serie 1 * 1/2 * 1/3 * … * 1/n.
 
@@ -213,7 +213,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDiesisieteDoWhile.c
 
-17. Contar los números primos hasta n
+18. Contar los números primos hasta n
 
 	• Descripción: Contar cuántos números primos hay desde 1 hasta n.
 
@@ -225,7 +225,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDiesiochoDoWhile.c
 
-18. Calcular el n-ésimo número triangular
+19. Calcular el n-ésimo número triangular
 
 	• Descripción: Calcular el n-ésimo número triangular.
 
@@ -237,7 +237,7 @@ Cada ejercicio tiene tres versiones, una con for, otra con while y otra con do w
 
 •Enlace DoWhile: https://github.com/johan22ch/Taller-de-Programaci-n-en-C-/blob/main/EjercicioDiesinueveDoWhile.c
 
-19. Calcular la suma de los factoriales de los primeros n números
+20. Calcular la suma de los factoriales de los primeros n números
 
 	• Descripción: Calcular la suma de los factoriales de los primeros n números.
 
