@@ -1,31 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    unsigned long long product = 1;
-    int term = 2; // Primer término de la serie geométrica
-    int i = 0;
+    int n; // Declaración de la variable n que almacenará el número de términos.
+    int producto = 1; // Inicialización de la variable producto con 1, que almacenará el resultado del producto.
+    int i = 1; // Inicialización de la variable de control de bucle i con 1.
 
-    // Ingrese el número de términos
-    printf("Ingrese el número de términos para calcular el producto: ");
-    scanf("%d", &n);
+    // Solicitar al usuario que ingrese el número de términos
+    printf("Ingresa el número de términos: ");
+    scanf("%d", &n); // Leer el número de términos ingresado por el usuario.
 
-    // Aseguarar que el número de términos sea positivo
-    if (n <= 0) {
-        printf("Por favor, ingrese un número positivo.\n");
-        return 1;
-    }
-
-    // Calcular el producto de los primeros n términos usando un bucle do-while
+    // Bucle do-while para calcular el producto de la serie geométrica
     do {
-        product *= term;
-        term *= 2; // Cada término es el doble del anterior
-        i++;
-    } while (i < n);
+        producto *= 2; // Multiplicar el producto por 2 en cada iteración (suponiendo que la razón común es 2).
+        i++; // Incrementar i.
+    } while (i <= n); // Repetir mientras i sea menor o igual que n.
 
-    // Imprimir el resultado
-    printf("El producto de los primeros %d términos es %llu\n", n, product);
-    printf("Muchas gracias mundo :D\n");
+    // Imprimir el resultado del producto
+    printf("El producto de la serie es: %d\n", producto); // Imprimir el resultado del producto.
 
-    return 0;
+    return 0; // Indicar que el programa ha finalizado con éxito.
 }
