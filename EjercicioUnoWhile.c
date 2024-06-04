@@ -1,20 +1,17 @@
 #include <stdio.h>
 
-int main() {
-    int num, sum = 0, i = 1;
-
-    // Solicitar al usuario que ingrese un número
-    printf("Ingresa un numero: ");
-    scanf("%d", &num);
-
-    // Calcular la suma de todos los números desde 1 hasta num usando un bucle while
-    while (i <= num) {
-        sum += i;
-        i++;
+int sumaDigitos(int numero) {
+    int suma = 0;
+    while (numero != 0) {
+        suma += numero % 10;
+        numero = numero / 10;
     }
+    return suma;
+}
 
-    // Imprimir el resultado
-    printf("La suma de los numeros desde 1 hasta %d es %d\n", num, sum);
-    printf("Muchas gracias mundo :D\n");
+int main() {
+    int numero = 12567;
+    int resultado = sumaDigitos(numero);
+    printf("La suma de los dígitos de %d es: %d\n", numero, resultado);
     return 0;
 }
