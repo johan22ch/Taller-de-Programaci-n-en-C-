@@ -1,23 +1,21 @@
 #include <stdio.h>
 
-int main()
-{
-    int num, inverse = 0, i;
+int main() {
+    int inverso = 0; // Variable para almacenar el número inverso
+    int num; // Variable para almacenar el número ingresado por el usuario
+    int digito; // Variable para almacenar cada dígito del número
 
-    // Ingrese un número entero
-    printf("Ingresa un numero: ");
-    scanf("%d", &num);
+    printf("Ingrese un numero: ");
+    scanf("%d", &num); // Leer el número ingresado por el usuario
 
-    // Se procede a calcular el inverso del número ingresado usando un bucle do-while
-    i = num;
-    do
-    {
-        inverse = inverse * 10 + i;
-        i--;
-    } while (i >= 1);
+    do {
+        digito = num % 10; // Obtener el último dígito del número
+        inverso = inverso * 10 + digito; // Construir el número inverso
+        num /= 10; // Eliminar el último dígito del número original
+    } while (num > 0); // Repetir hasta que no queden dígitos en el número original
 
-    // Imprimir el resultado
-    printf("El inverso de %d es %d\n", num, inverse);
-    printf("Muchas gracias mundo :D\n");
-    return 0;
+    printf("El numero inverso es: %d\n", inverso); // Imprimir el número inverso
+
+    return 0; // Indicar que el programa finalizó exitosamente
 }
+
